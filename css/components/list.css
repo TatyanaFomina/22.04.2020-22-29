@@ -1,0 +1,21 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 2px;
+  padding: 3px;
+  white-space: nowrap;
+}
+
+li.color {
+  border-radius: 0px 3px 3px 0px;
+}
+
+li.blue {
+  background-color: #ace2f8;
+}
+
+li.green {
+  background-color: #b1e19b;
+}

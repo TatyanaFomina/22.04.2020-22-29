@@ -1,0 +1,43 @@
+.grid {
+  margin: 0 -10px;
+  padding: 10px 0;
+}
+
+.grid > * {
+  padding: 5px 10px;
+}
+
+.grid-items.right {
+  margin-right: 30px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.section-comments .grid {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.card-chart-info .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chart-total .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width: 620px) {
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
